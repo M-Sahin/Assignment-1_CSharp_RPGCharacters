@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
-    public class Mage : Hero
+    public class Rogue : Hero
     {
         private float experience;
-        private string favoriteSpell;
-        private int spellSlots;
+        private string favoriteAttack;
 
-        public Mage()
+        public Rogue()
         {
-           
+
         }
+
 
 
     }

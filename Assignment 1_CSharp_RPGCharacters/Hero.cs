@@ -10,7 +10,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     {
         private string name;
         private int level;
-        private Attributes StartingAttributes;
+        private Attributes PrimaryAttributes;
         private Attributes TotalAttributes;
 
         public Hero()
