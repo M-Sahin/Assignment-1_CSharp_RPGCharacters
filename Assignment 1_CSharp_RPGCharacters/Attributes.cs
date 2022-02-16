@@ -23,13 +23,17 @@ namespace Assignment_1_CSharp_RPGCharacters
 
         public PrimaryAttributes()
         {
+            strength = 0;
+            dexterity = 0;
+            intelligence = 0; 
         }
+        
 
         public static PrimaryAttributes operator+ (PrimaryAttributes attributes, PrimaryAttributes UpdatedAttributes)
         {
-            attributes.strength = UpdatedAttributes.strength;
-            attributes.dexterity = UpdatedAttributes.dexterity;
-            attributes.intelligence = UpdatedAttributes.intelligence;
+            attributes.strength += UpdatedAttributes.strength;
+            attributes.dexterity += UpdatedAttributes.dexterity;
+            attributes.intelligence += UpdatedAttributes.intelligence;
             return attributes;
         }
 

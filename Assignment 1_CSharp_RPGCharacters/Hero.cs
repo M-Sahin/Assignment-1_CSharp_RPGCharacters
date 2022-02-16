@@ -24,7 +24,7 @@ namespace Assignment_1_CSharp_RPGCharacters
         public Dictionary<Slot, Item> Equipped { get; set; }
 
 
-        public Hero(string name, int strength, int dexterity, int intelligence)
+        public Hero(string name)
         {
             this.name = name;
             level = 1;
@@ -34,7 +34,7 @@ namespace Assignment_1_CSharp_RPGCharacters
         }
 
         /// <summary>
-        /// Method for increasing level op Hero
+        /// Method for increasing hero level
         /// </summary>
         public void LevelUp()
         {

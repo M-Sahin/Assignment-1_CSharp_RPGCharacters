@@ -11,7 +11,7 @@ namespace Assignment_1_CSharp_RPGCharacters
         private float experience;
         private string favoriteAttack;
 
-        public Rogue(string name, int strength, int dexterity, int intelligence) : base(name, strength, dexterity, intelligence)
+        public Rogue(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(2, 6, 1);
             UpdatedAttributes = new PrimaryAttributes() { dexterity = 4, intelligence = 1, strength = 1 };

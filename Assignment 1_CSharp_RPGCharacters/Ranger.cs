@@ -9,7 +9,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     public class Ranger : Hero
     {
 
-        public Ranger(string name, int strength, int dexterity, int intelligence) : base(name, strength, dexterity, intelligence)
+        public Ranger(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(1, 7, 1);
             UpdatedAttributes = new PrimaryAttributes() { dexterity = 5, intelligence = 1, strength = 1 };

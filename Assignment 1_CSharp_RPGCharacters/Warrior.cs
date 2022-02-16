@@ -10,7 +10,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     {
 
 
-        public Warrior(string name, int strength, int dexterity, int intelligence) : base(name, strength, dexterity, intelligence)
+        public Warrior(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(5, 2, 1);
             UpdatedAttributes = new PrimaryAttributes() { dexterity = 2, intelligence = 1, strength = 3 };

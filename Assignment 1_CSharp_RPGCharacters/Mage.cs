@@ -8,14 +8,16 @@ namespace Assignment_1_CSharp_RPGCharacters
 {
     public class Mage : Hero
     {
-    
-        public Mage(string name, int strength, int dexterity, int intelligence) : base(name, strength, dexterity, intelligence)
+
+
+        public Mage(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(1, 1, 8);
             UpdatedAttributes = new PrimaryAttributes() { dexterity = 1, intelligence = 5, strength = 1 };
             CompatibleWeapons = new WeaponType[] { WeaponType.STAFF, WeaponType.WAND };
             CompatibleArmor = new ArmorType[] {ArmorType.CLOTH };
         }
+
         public override double TotalAttributes()
         {
 
