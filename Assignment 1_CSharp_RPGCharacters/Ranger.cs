@@ -8,7 +8,7 @@ namespace Assignment_1_CSharp_RPGCharacters
 {
     public class Ranger : Hero
     {
-
+        //base attributes of character plus equipable items
         public Ranger(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(1, 7, 1);

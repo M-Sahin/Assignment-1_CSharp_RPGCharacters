@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
-   
+   //item types and definition
     public class Item
     {
         public string ItemName { get; set; }

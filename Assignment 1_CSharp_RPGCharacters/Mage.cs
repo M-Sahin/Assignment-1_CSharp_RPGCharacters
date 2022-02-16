@@ -9,7 +9,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     public class Mage : Hero
     {
 
-
+        //base attributes of character plus equipable items
         public Mage(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(1, 1, 8);

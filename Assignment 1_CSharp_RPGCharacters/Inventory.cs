@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+    //inventory slots
     public enum Slot
     {
         WEAPON, BODY, HEAD, LEGS

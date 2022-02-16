@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+    //exception
     public class InvalidWeaponException : Exception
     {
         public InvalidWeaponException()

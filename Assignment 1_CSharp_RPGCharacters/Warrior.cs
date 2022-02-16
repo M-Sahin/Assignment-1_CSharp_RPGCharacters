@@ -9,7 +9,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     public class Warrior : Hero
     {
 
-
+        //base attributes of character plus equipable items
         public Warrior(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(5, 2, 1);

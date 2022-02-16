@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+    //Weapontypes
     public enum WeaponType
     {
         AXE, BOW, DAGGER, HAMMER, STAFF, SWORD, WAND

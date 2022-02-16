@@ -28,7 +28,7 @@ namespace Assignment_1_CSharp_RPGCharacters
             intelligence = 0; 
         }
         
-
+        //
         public static PrimaryAttributes operator+ (PrimaryAttributes attributes, PrimaryAttributes UpdatedAttributes)
         {
             attributes.strength += UpdatedAttributes.strength;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+    //Armortypes and attributes
     public enum ArmorType
     {
         CLOTH, LEATHER, MAIL, PLATE

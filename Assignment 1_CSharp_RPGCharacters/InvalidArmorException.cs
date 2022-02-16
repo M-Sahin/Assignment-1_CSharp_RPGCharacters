@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+    //exception
     public class InvalidArmorException : Exception
     {
         public InvalidArmorException(string message)

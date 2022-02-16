@@ -8,9 +8,9 @@ namespace Assignment_1_CSharp_RPGCharacters
 {
     public class Rogue : Hero
     {
-        private float experience;
-        private string favoriteAttack;
 
+
+        //base attributes of character plus equipable items
         public Rogue(string name) : base(name)
         {
             PrimaryAttributes = new PrimaryAttributes(2, 6, 1);
