@@ -14,7 +14,7 @@ namespace RPG_Char_Tests
         public void Character_OnCreation_IsLevelOne()
         {
             // Arrange
-            Mage testCharacter = new("");
+            Mage testCharacter = new("Pippin");
             int expected = 1;
 
             // Act
@@ -24,20 +24,8 @@ namespace RPG_Char_Tests
             Assert.Equal(expected, actual);
 
         }
-        [Fact]
-        public void Character_OnLevelUp_IsLevelTwo()
-        {
-            // Arrange
-            Mage testCharacter = new Mage("");
-            int expected = 2;
-
-            // Act
-            testCharacter.LevelUp();
-            int actual = testCharacter.level;
-
-            // Assert
-            Assert.Equal(expected, actual);
-        }
+    
+       
 
     }
 }
