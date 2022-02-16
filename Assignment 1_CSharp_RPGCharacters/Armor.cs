@@ -13,12 +13,14 @@ namespace Assignment_1_CSharp_RPGCharacters
 
     public class Armor : Item
     {
-        public ArmorType armorType { get; set; }
-        public Attributes PrimaryAttributes { get; set; }
-  
+        public PrimaryAttributes ArmorAttributes { get; set; }
+        public ArmorType ItemType { get; set; }
     }
+    
+
+}
 
     
 
 
-}
+

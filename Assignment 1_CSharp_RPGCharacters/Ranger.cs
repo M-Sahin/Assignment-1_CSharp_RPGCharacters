@@ -8,14 +8,25 @@ namespace Assignment_1_CSharp_RPGCharacters
 {
     public class Ranger : Hero
     {
-        private float experience;
-        private string favoriteWeapon;
 
-        public Ranger()
+        public Ranger(string name, int strength, int dexterity, int intelligence) : base(name, strength, dexterity, intelligence)
+        {
+            PrimaryAttributes = new PrimaryAttributes(1, 7, 1);
+            UpdatedAttributes = new PrimaryAttributes() { dexterity = 5, intelligence = 1, strength = 1 };
+            CompatibleWeapons = new WeaponType[] { WeaponType.BOW};
+            CompatibleArmor = new ArmorType[] { ArmorType.LEATHER, ArmorType.MAIL };
+        }
+        public override double TotalAttributes()
         {
 
-        }
 
+            double totalAttributes = this.attributes.dexterity;
+            foreach (var armour in Equipment.Select(x => x.Value).OfType<Armor>())
+            {
+                totalAttributes += armour.ArmorAttributes.dexterity;
+            }
+            return totalAttributes;
+        }
 
     }
 }

@@ -6,7 +6,7 @@ namespace Assignment_1_CSharp_RPGCharacters
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

@@ -9,18 +9,18 @@ namespace Assignment_1_CSharp_RPGCharacters
    
     public class Item
     {
-        private string ItemName { get; set; }
-        private int ItemLevel { get; set; }
-        private Item ItemSlot { get; set; }
+        public string ItemName { get; set; }
+        public int ItemLevel { get; set; }
+        public Slot ItemSlot { get; set; }
         public Item()
         {
 
         }
-        public Item(string name, int level, Item itemSlot)
+        public Item(string name, int level, Slot slot)
         {
             this.ItemName = name;
             this.ItemLevel = level;
-            this.ItemSlot = itemSlot;
+            this.ItemSlot = slot;
         }
     }
 }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
-    public enum Slot
+    public class InvalidArmorException : Exception
     {
-        WEAPON, BODY, HEAD, LEGS
+        public InvalidArmorException(string message)
+        {
+
+        }
+
     }
-
-
-
-
 }

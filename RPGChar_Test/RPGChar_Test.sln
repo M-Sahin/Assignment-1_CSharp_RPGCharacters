@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGChar_Test", "RPGChar_Test\RPGChar_Test.csproj", "{7763DB10-21F8-4685-8BEE-8D4A2CC97BE0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment 1_CSharp_RPGCharacters", "..\Assignment 1_CSharp_RPGCharacters\Assignment 1_CSharp_RPGCharacters.csproj", "{D1670E9B-638B-4C98-97F1-BE7E87F79139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7763DB10-21F8-4685-8BEE-8D4A2CC97BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7763DB10-21F8-4685-8BEE-8D4A2CC97BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7763DB10-21F8-4685-8BEE-8D4A2CC97BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1670E9B-638B-4C98-97F1-BE7E87F79139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1670E9B-638B-4C98-97F1-BE7E87F79139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1670E9B-638B-4C98-97F1-BE7E87F79139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1670E9B-638B-4C98-97F1-BE7E87F79139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

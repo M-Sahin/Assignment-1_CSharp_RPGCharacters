@@ -13,20 +13,30 @@ namespace Assignment_1_CSharp_RPGCharacters
 
     public class Weapon : Item
     {
-        private WeaponType WeaponType { get; set; }
-        private int damage;
-        private double attackSpeed { get; set; }
-        private double weaponDPS { get; set; }
+        public WeaponType WeaponType { get; set; }
+
+        public int damage;
+        public double attackSpeed { get; set; }
+        public double weaponDPS { get; set; }
+        public class WeaponAttributes
+        {
+            public int Damage { get; set; }
+            public double AttackSpeed { get; set; }
+        }
         public Weapon()
         {
         }
-            public Weapon(string name, int level, Inventory itemSlot, WeaponType weaponType, int damage, double attackSpeed, double weaponDPS)
+            public Weapon(string name, int level, Slot itemSlot, WeaponType weaponType, int damage, double attackSpeed, double weaponDPS)
         {
             
             this.WeaponType = weaponType;
             this.damage = damage;
             this.attackSpeed = attackSpeed;
             this.weaponDPS = weaponDPS;
+        }
+        public double WeaponDamage()
+        {
+            return attackSpeed * weaponDPS;
         }
         
         

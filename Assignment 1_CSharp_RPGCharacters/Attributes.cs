@@ -6,28 +6,32 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
-    public class Attributes
+    public class PrimaryAttributes
     {
-        private int strength;
-        private int dexterity;
-        private int intelligence;
-        private int experience;
+        public int strength { get; set; }
+        public int dexterity { get; set; }
+        public int intelligence { get; set; }
+        
 
 
-        public Attributes()
-        {
-
-        }
-
-        public Attributes(int strength, int dexterity, int intelligence)
+        public PrimaryAttributes(int strength, int dexterity, int intelligence)
         {
             this.strength = strength;
             this.dexterity = dexterity;
             this.intelligence = intelligence;
         }
 
-        public static Attributes operator +(Attributes a, Attributes b)
-            => new Attributes(a.strength * b.strength, a.dexterity * b.dexterity, a.intelligence * b.intelligence);
+        public PrimaryAttributes()
+        {
+        }
+
+        public static PrimaryAttributes operator+ (PrimaryAttributes attributes, PrimaryAttributes UpdatedAttributes)
+        {
+            attributes.strength = UpdatedAttributes.strength;
+            attributes.dexterity = UpdatedAttributes.dexterity;
+            attributes.intelligence = UpdatedAttributes.intelligence;
+            return attributes;
+        }
 
 
     }
