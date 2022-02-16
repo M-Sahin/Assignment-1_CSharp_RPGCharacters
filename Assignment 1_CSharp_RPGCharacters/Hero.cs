@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1_CSharp_RPGCharacters
 {
+       //Hero main class
     public abstract class Hero
     {
         public string name;
